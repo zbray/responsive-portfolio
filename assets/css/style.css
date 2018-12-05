@@ -228,9 +228,7 @@ input[type=submit] {
   #main-container {
     padding:0;
   }
-  nav {
-    float:none;
-  }
+
 }
 
 @media screen and (max-width:980px){
@@ -241,23 +239,21 @@ input[type=submit] {
   #main-container {
     padding:0;
   }
-  nav {
-    float:none;
-  }
+
 }
 
 @media screen and (max-width:640px){
-
   #masthead {
     position:static;
-    margin-top:0
+    margin-top:0;
+    
   }
   #main-container {
     padding:0;
   }
   #logo {
     width:100%;
-    margin-botton:10px;
+   
   }
   header {
     position:fixed;
@@ -265,6 +261,8 @@ input[type=submit] {
     top:0;
   }
   nav {
-    float:none;
-  }
+    text-align:center;
+    margin-top:0;
+float:none}
+  
 }
