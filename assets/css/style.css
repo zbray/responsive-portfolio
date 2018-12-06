@@ -231,10 +231,17 @@ input[type=submit] {
     padding:0;
   }
 
+  #main-container img {
+    width:100%;
+  }
+
   #logo {
     width:100%;
   }
 
+  div .work {
+    width:100%;
+  }
   header {
     position:fixed;
     width:100%;
@@ -250,7 +257,7 @@ input[type=submit] {
   nav a {
     padding:20px;
   }
-
+  
   footer {
     margin-left:0;
   }
