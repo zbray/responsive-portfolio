@@ -100,6 +100,7 @@ nav a:first-child {
 
 footer {
   padding: 30px 0;
+  width:100%;
   clear: both;
   font-size: 12px;
   color: #ffffff;
@@ -217,8 +218,47 @@ input[type=submit] {
 }
 
 
+/* MEDIA QUERIES */
 
+/* Small */
+@media screen and (max-width:640px){
+  #masthead {
+    position:static;
+    margin-top:0;
+  }
 
+  #main-container {
+    padding:0;
+  }
+
+  #logo {
+    width:100%;
+  }
+
+  header {
+    position:fixed;
+    width:100%;
+    top:0;
+  }
+
+  nav {
+    text-align:center;
+    margin-top:0;
+    float:none
+}
+
+  nav a {
+    padding:20px;
+  }
+
+  footer {
+    margin-left:0;
+  }
+}
+/* All that I believe is missing from being identical to the photos provided would be the 
+images stretching to the width of the page when below 640px */
+
+/* Medium */
 @media screen and (max-width: 768px) {
   #masthead {
     position:static;
@@ -228,9 +268,12 @@ input[type=submit] {
   #main-container {
     padding:0;
   }
-
+  footer {
+    margin-left:0;
+  }
 }
 
+/* Large */
 @media screen and (max-width:980px){
   #masthead {
     position:static;
@@ -239,33 +282,8 @@ input[type=submit] {
   #main-container {
     padding:0;
   }
+  footer {
+    margin-left:0;
+  }
 
-}
-
-@media screen and (max-width:640px){
-  #masthead {
-    position:static;
-    margin-top:0;
-    
-  }
-  #main-container {
-    padding:0;
-  }
-  #logo {
-    width:100%;
-   
-  }
-  header {
-    position:fixed;
-    width:100%;
-    top:0;
-  }
-  nav {
-    text-align:center;
-    margin-top:0;
-    float:none
-}
-  nav a {
-    padding:20px;
-  }
 }
